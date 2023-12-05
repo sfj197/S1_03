@@ -25,7 +25,7 @@ public class Main {
 		months.add(new Month("November"));
 		months.add(new Month("December"));
 		
-		System.out.println("Comprobamos si Agosto se coloca en el indice indicado.\n");
+		System.out.println("Comprobamos si Agosto se coloca en el indice indicado.");
 		months.add(7,new Month("August"));
 		
 		for(Month month : months) {
@@ -33,19 +33,19 @@ public class Main {
 			System.out.print(month + ",");	
 		}
 		
-		System.out.println("\n");
+		System.out.println();
 		//Transformamos a Set.
 		Set<Month> months1 = new HashSet<Month>(months);
 		
 		months1.add(new Month("August"));
 
-		System.out.println("En una coleccion Set,comprobamos si se duplica.\n");
+		System.out.println("En una coleccion Set,comprobamos si se duplica.");
 		
 		for(Month month:months1) {
 			System.out.print(month + ",");
 			
 		}
-		System.out.println("\n");
+		System.out.println();
 		
 		//Creamos objeto Iterator.
 			
