@@ -31,7 +31,7 @@ public class Main {
 			System.out.print(numero + ",");
 		}
 		
-		System.out.println("\n");
+		System.out.println();
 		
 		//El iterator esta al final de la lista.Tiro hacia atras y agrego en lista2.
 		
